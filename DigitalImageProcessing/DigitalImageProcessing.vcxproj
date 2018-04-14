@@ -96,8 +96,6 @@
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
-      <AdditionalDependencies>Jpeglib2.lib;legacy_stdio_definitions.lib</AdditionalDependencies>
-      <IgnoreSpecificDefaultLibraries>LIBCD.lib</IgnoreSpecificDefaultLibraries>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -188,7 +186,6 @@
     <ClInclude Include="DigitalImageProcessing.h" />
     <ClInclude Include="DigitalImageProcessingDoc.h" />
     <ClInclude Include="DigitalImageProcessingView.h" />
-    <ClInclude Include="Jpegfile.h" />
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
@@ -198,7 +195,6 @@
     <ClCompile Include="DigitalImageProcessing.cpp" />
     <ClCompile Include="DigitalImageProcessingDoc.cpp" />
     <ClCompile Include="DigitalImageProcessingView.cpp" />
-    <ClCompile Include="Jpegfile.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
